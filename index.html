@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App - CodeWithSuneel</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/6b966262b5.js" crossorigin="anonymous">
+    </script>
+</head>
+<body>
+    <div class="main">
+        <h1 class="title">Weather</h1>
+        <div class="searchBox">
+            <input type="text" id="cityName" spellcheck="false" placeholder="Enter City Name">
+            <i class="fa-solid fa-magnifying-glass" onclick="fun()"></i>
+        </div>
+        <p class="err">Invalid City Name</p>
+        <div class="temp">
+            <img src="" width="100" id="mainImg">
+            <p class="info"></p><br>
+            <h2 class="celcius">26°C</h2>
+            <h1 class="city">City Name</h1>
+            <br>
+            <div class="details">
+                <div>
+                    <i class="fa-solid fa-water"></i>
+                    <span class="h">26%</span>
+                    <p>Humidity</p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-wind"></i>
+                    <span class="w">26 km/h</span>
+                    <p>Wind Speed</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
